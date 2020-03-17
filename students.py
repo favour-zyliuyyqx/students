@@ -10,7 +10,7 @@ for i in range(0, n):
     data[name] = marks
 for x,y in data.items():
     total = sum(y)
-    print("{}'s total marks {}".fomat(x,total))
+    print("{}'s total marks {}".format(x,total))
     if total < 120:
         print(x,"failed :(")
     else:
